@@ -1,48 +1,35 @@
-# EchoFN
+# Echo — Launcher Dump
 
-**OG Fortnite | Custom Launcher + Cheat**
-
-EchoFN is a modified OG Fortnite project with custom features and extra modifications. I work on this as a passion project because I enjoy the OG Fortnite scene, launcher modding, and seeing what I can make out of it.
-
-## Features
-
-- Custom launcher
-- All cosmetics unlocked
-- No IRL money needed for cosmetics
-- Custom item shop swapping
-- Anti-cheat remover *(WIP)*
-- Cheat coming alongside the project
-- More stuff coming soon
-
-## Status
-
-- [x] Cosmetic unlocks
-- [x] Item shop customization
-- [x] Launcher modifications
-- [ ] Anti-cheat remover
-- [ ] Cheat release
-- [ ] More features
-
-## Why Public?
-
-I originally opened a ticket with the owners to try and sort things out privately, but never got a response.
-
-Honestly, reverse engineering the launcher wasn't even that difficult. If the owners had actually responded to my ticket, this probably wouldn't have ended up going public.
+An unofficial dump of the **Echo** launcher source code for archival and educational purposes.
 
 ## About
 
-This is a passion project. I enjoy working on OG Fortnite modifications, experimenting with features, and building things for the community. I'm doing this because I want to, not because I'm making money off it.
+This repository contains a dump of the Echo launcher code.
 
-## Credits
+I attempted to contact the original owner but received no response, so I decided to publish this dump for archival purposes.
 
-The original launcher was private-source. EchoFN is based on my reverse-engineering work and my own modifications.
+I do not own or claim ownership of Echo or its original code. This repository is unofficial and is not affiliated with the original developers.
 
-**Original project:** [(https://discord.gg/echofn)]
+## What's Included
 
-Credit goes to the original creator for their original work.
+- **Launcher Dump** — Source code and related launcher files.
+- **Rust Backend Dump** — We are also working on dumping the Rust backend, with more information and files to come as work progresses.
 
 ## Disclaimer
 
-EchoFN is an unofficial third-party project and is not affiliated with or endorsed by Epic Games.
+- All credit for the original project goes to its respective creator(s).
+- I am not the original developer or owner of Echo.
+- I attempted to contact the original owner but received no response.
+- The files are provided as-is, without guarantees of functionality or support.
+- All original code and intellectual property remain subject to their respective owners' rights.
 
-**More soon.**
+## Credits
+
+- **Project:** Echo
+- **Repository purpose:** Launcher and backend code archive
+- **Original creator(s):** Respective rights holders
+
+---
+
+*Unofficial archive. No ownership of the original project is claimed.*
+
