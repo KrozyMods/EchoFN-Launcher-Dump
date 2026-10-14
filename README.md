@@ -37,7 +37,7 @@ This is a passion project. I enjoy working on OG Fortnite modifications, experim
 
 The original launcher was private-source. EchoFN is based on my reverse-engineering work and my own modifications.
 
-**Original project:** [Add link here]
+**Original project:** [(https://discord.gg/echofn)]
 
 Credit goes to the original creator for their original work.
 
