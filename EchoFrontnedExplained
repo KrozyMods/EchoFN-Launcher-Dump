@@ -1,0 +1,78 @@
+# Echo Launcher – Frontend Extraction
+
+## Extracted Files
+
+**Location:** `C:\Users\[USER]\Pictures\EchoSourceCode\extracted\frontend\`
+
+I extracted 47 frontend files from Echo Launcher using tauri-dumper. The files include:
+
+- HTML files (`index.html`, `__packclamp.html`)
+- JavaScript files (`app.js`, `tab-*.js`, `onboarding.js`, etc.)
+- CSS (`ui.css`)
+- Assets such as fonts, images, configuration files, and `FortniteLauncher.exe`
+
+The extracted files take up around 9.7 MB once decompressed.
+
+## Editing the Frontend
+
+The frontend files are ready to edit. You can change the JavaScript, CSS, HTML, and assets to customise the launcher's interface.
+
+The configuration file is located at:
+
+`frontend/assets/config.json`
+
+## Rebuilding
+
+To work with Tauri, you'll need Rust and the Tauri CLI installed.
+
+Install the Tauri CLI with:
+
+```bash
+cargo install tauri-cli
+```
+
+Or install it through npm:
+
+```bash
+npm install -g @tauri-apps/cli
+```
+
+Once you've made your changes, you can try running the project in development mode:
+
+```bash
+tauri dev
+```
+
+To build the launcher, run:
+
+```bash
+tauri build
+```
+
+Make sure the frontend directory contains the required Tauri project files before building.
+
+## File Structure
+
+```text
+extracted/
+└── frontend/
+    ├── index.html
+    ├── __packclamp.html
+    ├── app.js
+    ├── ui.css
+    ├── tab-*.js
+    ├── onboarding.js
+    ├── assets/
+    │   ├── config.json
+    │   ├── fonts/
+    │   ├── images/
+    │   └── FortniteLauncher.exe
+    └── FRONTEND_README.md
+```
+
+## Notes
+
+- 47 frontend files were extracted successfully.
+- The files have been decompressed and are ready to inspect and edit.
+- The launcher uses Tauri 2.11.2.
+- The API used by the frontend is `https://api.echofn.org`.
