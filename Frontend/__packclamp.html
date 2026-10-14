@@ -1,0 +1,57 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<title>pack title clamp</title>
+<link rel="stylesheet" href="ui.css?v=4">
+<style nonce="__TAURI_STYLE_NONCE__">
+    body { margin: 0; background: #140f22; }
+    .grid { display: grid; grid-template-columns: repeat(4, 200px); gap: 18px; padding: 24px; }
+</style>
+</head>
+<body>
+<div class="grid" id="grid"></div>
+<pre id="out" style="color:#fff;font:12px monospace;padding:0 24px 24px"></pre>
+<script>
+const NAMES = [
+    "Echo",
+    "Fortnite Battle Royale - Starter",
+    "The Extremely Long Supporter Pack Name That Should Definitely Be Cut Off Somewhere",
+    "Laguna"
+];
+const grid = document.getElementById("grid");
+for (const name of NAMES) {
+    const card = document.createElement("button");
+    card.type = "button";
+    card.className = "se-pack";
+    card.style.setProperty("--pack-color-a", "#5b2bd6");
+    card.style.setProperty("--pack-color-b", "#b06bff");
+    const title = document.createElement("div");
+    title.className = "se-pack-title";
+    title.textContent = name;
+    const price = document.createElement("div");
+    price.className = "se-pack-price";
+    const line = document.createElement("div");
+    line.textContent = "US$8.99";
+    price.append(line);
+    card.append(title, price);
+    grid.append(card);
+}
+
+window.measure = () => [...document.querySelectorAll(".se-pack-title")].map((el) => {
+    const card = el.closest(".se-pack").getBoundingClientRect();
+    const box = el.getBoundingClientRect();
+    return {
+        text: el.textContent.slice(0, 22),
+        clamp: getComputedStyle(el).webkitLineClamp,
+        top: +(box.top - card.top).toFixed(1),
+        bottom: +(box.bottom - card.top).toFixed(1),
+        sliver: el.scrollHeight - el.clientHeight
+    };
+});
+
+document.fonts.ready.then(() => setTimeout(() => {
+    document.getElementById("out").textContent = JSON.stringify(window.measure(), null, 1);
+}, 200));
+</script>
+
+
+</body></html>

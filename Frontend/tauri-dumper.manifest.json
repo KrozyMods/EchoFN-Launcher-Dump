@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "echo-launcher.exe",
+    "sha256": "e6d78a5f6ddfcf1eb75584ec1344e340309c782bd5ce2a264ebbab53503941f3",
+    "file_size": 21954560,
+    "binary_kind": "pe",
+    "architecture": "X86_64"
+  },
+  "assets": [
+    {
+      "name": "/assets/config.json",
+      "location": {
+        "header_offset": 14477512,
+        "name_offset": 6355432,
+        "data_offset": 6355451,
+        "data_size_offset": 14477536,
+        "original_compressed_size": 54,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 54,
+      "decompressed_size": 50,
+      "compressed_sha256": "6a26c0d1e09522041d585659f3d20e1dce149dc851385718ab31e8340f85a2c9"
+    },
+    {
+      "name": "/assets/images/splash/3/Splash.bmp",
+      "location": {
+        "header_offset": 14477544,
+        "name_offset": 6355505,
+        "data_offset": 6355539,
+        "data_size_offset": 14477568,
+        "original_compressed_size": 910285,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 910285,
+      "decompressed_size": 1417014,
+      "compressed_sha256": "8eca8d75b75a55b3035f798d14ed9ac1c4a5da63ec64513c47a11a725bf5ba4d"
+    },
+    {
+      "name": "/data-store.js",
+      "location": {
+        "header_offset": 14477576,
+        "name_offset": 7265824,
+        "data_offset": 7265838,
+        "data_size_offset": 14477600,
+        "original_compressed_size": 2774,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 2774,
+      "decompressed_size": 8254,
+      "compressed_sha256": "6a937aef5e1f025bf09924b3dd3c941e2fe5adf01d214445742351690741f58a"
+    },
+    {
+      "name": "/assets/fonts/poppins-latin-500.woff2",
+      "location": {
+        "header_offset": 14477608,
+        "name_offset": 7268612,
+        "data_offset": 7268649,
+        "data_size_offset": 14477632,
+        "original_compressed_size": 7752,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 7752,
+      "decompressed_size": 7748,
+      "compressed_sha256": "6a4670c69f013bdb2f44f91915ff4c621641d79106abcd2cebea96856712add0"
+    },
+    {
+      "name": "/assets/images/bg-home.webp",
+      "location": {
+        "header_offset": 14477640,
+        "name_offset": 7276401,
+        "data_offset": 7276428,
+        "data_size_offset": 14477664,
+        "original_compressed_size": 158199,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 158199,
+      "decompressed_size": 158194,
+      "compressed_sha256": "cc011934d14d2f0df1a3bcf39c60b99c20a21c81145fa29aae3b605447a9a364"
+    },
+    {
+      "name": "/tab-main.js",
+      "location": {
+        "header_offset": 14477672,
+        "name_offset": 7434627,
+        "data_offset": 7434639,
+        "data_size_offset": 14477696,
+        "original_compressed_size": 1777,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 1777,
+      "decompressed_size": 4246,
+      "compressed_sha256": "8c3f6719c761a99c391342431f35f5043dcbd26b1f685be47b7ac15f36549a37"
+    },
+    {
+      "name": "/assets/images/echo-logo.webp",
+      "location": {
+        "header_offset": 14477704,
+        "name_offset": 7436416,
+        "data_offset": 7436445,
+        "data_size_offset": 14477728,
+        "original_compressed_size": 7834,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 7834,
+      "decompressed_size": 7830,
+      "compressed_sha256": "67e5e0e04aa3c99252286aa55e2173600719f9d8aaf52208afaea357b9777d20"
+    },
+    {
+      "name": "/assets/fonts/poppins-latin-ext-700.woff2",
+      "location": {
+        "header_offset": 14477736,
+        "name_offset": 7444279,
+        "data_offset": 7444320,
+        "data_size_offset": 14477760,
+        "original_compressed_size": 5436,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 5436,
+      "decompressed_size": 5432,
+      "compressed_sha256": "a72b494c44bf3e03971643c8a20261845d30e62a263c0192a9040696fa265ad3"
+    },
+    {
+      "name": "/assets/images/bg-builds-tab.webp",
+      "location": {
+        "header_offset": 14477768,
+        "name_offset": 7449756,
+        "data_offset": 7449789,
+        "data_size_offset": 14477792,
+        "original_compressed_size": 129911,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 129911,
+      "decompressed_size": 129906,
+      "compressed_sha256": "eb0e290be99eef0b8bf25ba4794a962b0cf3117dd45f50daf7af6b25beab93b8"
+    },
+    {
+      "name": "/index.html",
+      "location": {
+        "header_offset": 14477800,
+        "name_offset": 20504293,
+        "data_offset": 7579700,
+        "data_size_offset": 14477824,
+        "original_compressed_size": 359,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 359,
+      "decompressed_size": 1409,
+      "compressed_sha256": "80ef07accc33ca9c8339b1635d86ddc8a009286a27163d7be8e9c7a4e25e8b82"
+    },
+    {
+      "name": "/tab-settings.js",
+      "location": {
+        "header_offset": 14477832,
+        "name_offset": 7580059,
+        "data_offset": 7580075,
+        "data_size_offset": 14477856,
+        "original_compressed_size": 17502,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 17502,
+      "decompressed_size": 57699,
+      "compressed_sha256": "8d13a59fc926ced87955092939e4edc8a78d615c3d41db878dcdf9f0d6377e40"
+    },
+    {
+      "name": "/tab-shop.js",
+      "location": {
+        "header_offset": 14477864,
+        "name_offset": 7597577,
+        "data_offset": 7597589,
+        "data_size_offset": 14477888,
+        "original_compressed_size": 6986,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 6986,
+      "decompressed_size": 20423,
+      "compressed_sha256": "c979c42a3a78a4627b5a3c38c539516ce59d49d749af737333a590a04e207148"
+    },
+    {
+      "name": "/actions.js",
+      "location": {
+        "header_offset": 14477896,
+        "name_offset": 7604575,
+        "data_offset": 7604586,
+        "data_size_offset": 14477920,
+        "original_compressed_size": 3415,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 3415,
+      "decompressed_size": 10238,
+      "compressed_sha256": "c867d5f3b295de9464398f77ed2ff05157688cbdcf5fa02dd41256c1e05d8f4c"
+    },
+    {
+      "name": "/assets/fonts/poppins-latin-ext-600.woff2",
+      "location": {
+        "header_offset": 14477928,
+        "name_offset": 7608001,
+        "data_offset": 7608042,
+        "data_size_offset": 14477952,
+        "original_compressed_size": 5528,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 5528,
+      "decompressed_size": 5524,
+      "compressed_sha256": "aad7be163da57f2d10db49d23e373451a73764828e528d55deb200c5d363a671"
+    },
+    {
+      "name": "/tab-builds.js",
+      "location": {
+        "header_offset": 14477960,
+        "name_offset": 7613570,
+        "data_offset": 7613584,
+        "data_size_offset": 14477984,
+        "original_compressed_size": 9062,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 9062,
+      "decompressed_size": 29103,
+      "compressed_sha256": "e490ac4768cc9717cb286d1ea699db4a5a2b372b74c56748928791c94336cfa3"
+    },
+    {
+      "name": "/side-rail.js",
+      "location": {
+        "header_offset": 14477992,
+        "name_offset": 7622646,
+        "data_offset": 7622659,
+        "data_size_offset": 14478016,
+        "original_compressed_size": 3518,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 3518,
+      "decompressed_size": 9723,
+      "compressed_sha256": "34c9ad04af29e1c5105481e0946eeb0b7449883b3b7234d37eec847fc8333e58"
+    },
+    {
+      "name": "/__packclamp.html",
+      "location": {
+        "header_offset": 14478024,
+        "name_offset": 7626177,
+        "data_offset": 7626194,
+        "data_size_offset": 14478048,
+        "original_compressed_size": 840,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 840,
+      "decompressed_size": 1937,
+      "compressed_sha256": "54e1e6104a3201862a890fc97b471bd79fc15bc9ec91ef630e6391f54e661b32"
+    },
+    {
+      "name": "/assets/fonts/material-symbols-rounded.woff2",
+      "location": {
+        "header_offset": 14478056,
+        "name_offset": 7627034,
+        "data_offset": 7627078,
+        "data_size_offset": 14478080,
+        "original_compressed_size": 3115396,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 3115396,
+      "decompressed_size": 3117852,
+      "compressed_sha256": "5879968b43a52d7328953cffa004c0d1cb02451f9b1f036b1abb265bd62074f8"
+    },
+    {
+      "name": "/assets/fonts/burbank-big-regular-black.otf",
+      "location": {
+        "header_offset": 14478088,
+        "name_offset": 10742474,
+        "data_offset": 10742517,
+        "data_size_offset": 14478112,
+        "original_compressed_size": 49007,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 49007,
+      "decompressed_size": 113160,
+      "compressed_sha256": "2ff497b6ec2323f656fd31c538ae190b07df37a40bd83a08213cc533025a48bb"
+    },
+    {
+      "name": "/onboarding.js",
+      "location": {
+        "header_offset": 14478120,
+        "name_offset": 10791524,
+        "data_offset": 10791538,
+        "data_size_offset": 14478144,
+        "original_compressed_size": 9034,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 9034,
+      "decompressed_size": 29054,
+      "compressed_sha256": "fdb9291b5fa9a06625f71b8df855501a130512b82b0a14d32ac20466f2bcf5e7"
+    },
+    {
+      "name": "/assets/fonts/burbank-small-bold.ttf",
+      "location": {
+        "header_offset": 14478152,
+        "name_offset": 10800572,
+        "data_offset": 10800608,
+        "data_size_offset": 14478176,
+        "original_compressed_size": 36221,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 36221,
+      "decompressed_size": 76768,
+      "compressed_sha256": "90acdb8434a4159a06226f420d869eddba761c7912fe779ad2faa493eccb664d"
+    },
+    {
+      "name": "/tauri-bridge.js",
+      "location": {
+        "header_offset": 14478184,
+        "name_offset": 10836829,
+        "data_offset": 10836845,
+        "data_size_offset": 14478208,
+        "original_compressed_size": 2280,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 2280,
+      "decompressed_size": 5991,
+      "compressed_sha256": "bc999240fe2d45cfb9c576d7c8499946f7d0840f205afc264f0afc1093ff4be1"
+    },
+    {
+      "name": "/tab-profile.js",
+      "location": {
+        "header_offset": 14478216,
+        "name_offset": 10839125,
+        "data_offset": 10839140,
+        "data_size_offset": 14478240,
+        "original_compressed_size": 12286,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 12286,
+      "decompressed_size": 39753,
+      "compressed_sha256": "ec2ed8f1ec98d2abd869e0d1a3db420fdac78d48083ce41f6320a90faefb9ea0"
+    },
+    {
+      "name": "/ui.css",
+      "location": {
+        "header_offset": 14478248,
+        "name_offset": 10851426,
+        "data_offset": 10851433,
+        "data_size_offset": 14478272,
+        "original_compressed_size": 23478,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 23478,
+      "decompressed_size": 173836,
+      "compressed_sha256": "366c06dacae5292bd57362eaa169664369729b66cab255a5ecca9426440cb0d9"
+    },
+    {
+      "name": "/assets/fonts/jetbrains-mono-latin-ext.woff2",
+      "location": {
+        "header_offset": 14478280,
+        "name_offset": 10874911,
+        "data_offset": 10874955,
+        "data_size_offset": 14478304,
+        "original_compressed_size": 11624,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 11624,
+      "decompressed_size": 11624,
+      "compressed_sha256": "6d30c122adf8e34e70ab243919263b31b0b5d50f881d2a5943b0940744ae7e13"
+    },
+    {
+      "name": "/assets/fonts/poppins-latin-400.woff2",
+      "location": {
+        "header_offset": 14478312,
+        "name_offset": 10886579,
+        "data_offset": 10886616,
+        "data_size_offset": 14478336,
+        "original_compressed_size": 7888,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 7888,
+      "decompressed_size": 7884,
+      "compressed_sha256": "2851f8e041899af4951a044a299f74deae5dcd7406080298dcb059ce7aef6873"
+    },
+    {
+      "name": "/tab-mods.js",
+      "location": {
+        "header_offset": 14478344,
+        "name_offset": 10894504,
+        "data_offset": 10894516,
+        "data_size_offset": 14478368,
+        "original_compressed_size": 7688,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 7688,
+      "decompressed_size": 24347,
+      "compressed_sha256": "4219aa215ec3914db4198de144ef4de5e62901cba64f69a53594ba536afbfec4"
+    },
+    {
+      "name": "/app.js",
+      "location": {
+        "header_offset": 14478376,
+        "name_offset": 10902204,
+        "data_offset": 10902211,
+        "data_size_offset": 14478400,
+        "original_compressed_size": 39748,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 39748,
+      "decompressed_size": 131783,
+      "compressed_sha256": "f55be85a32e785893d642b87b112b6afacb2811e827bc5948622ccec3bf86d45"
+    },
+    {
+      "name": "/assets/FortniteLauncher.exe",
+      "location": {
+        "header_offset": 14478408,
+        "name_offset": 10941959,
+        "data_offset": 10941987,
+        "data_size_offset": 14478432,
+        "original_compressed_size": 71500,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 71500,
+      "decompressed_size": 147968,
+      "compressed_sha256": "c93e0f12a8e1e262f8fb0542a22aab79d38f4de7ee20b8cb59c296eac266b857"
+    },
+    {
+      "name": "/assets/images/splash/4/Splash.bmp",
+      "location": {
+        "header_offset": 14478440,
+        "name_offset": 11013487,
+        "data_offset": 11013521,
+        "data_size_offset": 14478464,
+        "original_compressed_size": 951207,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 951207,
+      "decompressed_size": 1417016,
+      "compressed_sha256": "15bc2e5c9c77f5af4b25318ebcf9c9cd9827ea979abebbb0e701a9cc4b38b0b5"
+    },
+    {
+      "name": "/assets/images/background.jpg",
+      "location": {
+        "header_offset": 14478472,
+        "name_offset": 11964728,
+        "data_offset": 11964757,
+        "data_size_offset": 14478496,
+        "original_compressed_size": 239465,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 239465,
+      "decompressed_size": 239460,
+      "compressed_sha256": "473c96735102c7b0c77fb97b1ef7dd84d87fcc12f2ac613bb4f808d8a8ad3bb3"
+    },
+    {
+      "name": "/assets/fonts/jetbrains-mono-latin.woff2",
+      "location": {
+        "header_offset": 14478504,
+        "name_offset": 12204222,
+        "data_offset": 12204262,
+        "data_size_offset": 14478528,
+        "original_compressed_size": 31436,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 31436,
+      "decompressed_size": 31432,
+      "compressed_sha256": "93b4349b0b577e3018e0919934ecfabf015185ed620a3f1ea0497fd608e4a1fc"
+    },
+    {
+      "name": "/assets/images/splash/2/Splash.bmp",
+      "location": {
+        "header_offset": 14478536,
+        "name_offset": 12235698,
+        "data_offset": 12235732,
+        "data_size_offset": 14478560,
+        "original_compressed_size": 1040770,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 1040770,
+      "decompressed_size": 1417014,
+      "compressed_sha256": "3a8775ad12cf4b6a7d9cd5ec36bbd535e78bbe290d623c37d7b6c81f65b1d926"
+    },
+    {
+      "name": "/assets/fonts/poppins-latin-ext-500.woff2",
+      "location": {
+        "header_offset": 14478568,
+        "name_offset": 13276502,
+        "data_offset": 13276543,
+        "data_size_offset": 14478592,
+        "original_compressed_size": 5488,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 5488,
+      "decompressed_size": 5484,
+      "compressed_sha256": "7a974a15725a1ed0f0ef2277567c1ead415f34db3ed57f7a4f3791bef4ae0bc4"
+    },
+    {
+      "name": "/assets/fonts/poppins-latin-600.woff2",
+      "location": {
+        "header_offset": 14478600,
+        "name_offset": 13282031,
+        "data_offset": 13282068,
+        "data_size_offset": 14478624,
+        "original_compressed_size": 8004,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 8004,
+      "decompressed_size": 8000,
+      "compressed_sha256": "492d1035863b32dd5c3e77042fb33e46f5bf962d45fbc93f9a6f424e3fe22180"
+    },
+    {
+      "name": "/music-packs.js",
+      "location": {
+        "header_offset": 14478632,
+        "name_offset": 13290072,
+        "data_offset": 13290087,
+        "data_size_offset": 14478656,
+        "original_compressed_size": 5015,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 5015,
+      "decompressed_size": 19742,
+      "compressed_sha256": "3b304cf7c2ad3ea054c47151313c38af807ada7451a13f3154e3ce101d389609"
+    },
+    {
+      "name": "/assets/images/splash/6/Splash.bmp",
+      "location": {
+        "header_offset": 14478664,
+        "name_offset": 13295102,
+        "data_offset": 13295136,
+        "data_size_offset": 14478688,
+        "original_compressed_size": 821840,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 821840,
+      "decompressed_size": 1417014,
+      "compressed_sha256": "6847c4e153c7098fe854257d6060f1a999ba1010847a8ac299c82fab54444f7b"
+    },
+    {
+      "name": "/themes.js",
+      "location": {
+        "header_offset": 14478696,
+        "name_offset": 14116976,
+        "data_offset": 14116986,
+        "data_size_offset": 14478720,
+        "original_compressed_size": 1556,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 1556,
+      "decompressed_size": 3741,
+      "compressed_sha256": "3bc9498292c5853b02a76e71bf5a460104eda2625c8d6c303e795e959a9bfc55"
+    },
+    {
+      "name": "/tab-news.js",
+      "location": {
+        "header_offset": 14478728,
+        "name_offset": 14118542,
+        "data_offset": 14118554,
+        "data_size_offset": 14478752,
+        "original_compressed_size": 4580,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 4580,
+      "decompressed_size": 14002,
+      "compressed_sha256": "38ee3ad0524e1757b0acf1305ad1e4fc6cfee62671496b9625be2c578f7f21ea"
+    },
+    {
+      "name": "/settings-rewards.js",
+      "location": {
+        "header_offset": 14478760,
+        "name_offset": 14123134,
+        "data_offset": 14123154,
+        "data_size_offset": 14478784,
+        "original_compressed_size": 1174,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 1174,
+      "decompressed_size": 2801,
+      "compressed_sha256": "fa2ef0d7ad61579d8868b2bd14f2c9739cdb3e6b497025cf251383eb38de85da"
+    },
+    {
+      "name": "/assets/fonts/poppins-latin-ext-400.woff2",
+      "location": {
+        "header_offset": 14478792,
+        "name_offset": 14124328,
+        "data_offset": 14124369,
+        "data_size_offset": 14478816,
+        "original_compressed_size": 5648,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 5648,
+      "decompressed_size": 5644,
+      "compressed_sha256": "40e095398edd83564a73f9c45e48ec73c4fd871548e7de0d06428587ecb2122f"
+    },
+    {
+      "name": "/assets/fonts/poppins-latin-700.woff2",
+      "location": {
+        "header_offset": 14478824,
+        "name_offset": 14130017,
+        "data_offset": 14130054,
+        "data_size_offset": 14478848,
+        "original_compressed_size": 7820,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 7820,
+      "decompressed_size": 7816,
+      "compressed_sha256": "ce661b37155e126d635872e914c6d588e003ec7e7ff21df5304f543c1533d270"
+    },
+    {
+      "name": "/assets/images/bg-builds.webp",
+      "location": {
+        "header_offset": 14478856,
+        "name_offset": 14137874,
+        "data_offset": 14137903,
+        "data_size_offset": 14478880,
+        "original_compressed_size": 118307,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 118307,
+      "decompressed_size": 118302,
+      "compressed_sha256": "53d751acb819f3b17f281b94f7e32eff0275e8711c594acfc39f73bb0efafd2f"
+    },
+    {
+      "name": "/assets/images/old-rarity-cards.jpg",
+      "location": {
+        "header_offset": 14478888,
+        "name_offset": 14256210,
+        "data_offset": 14256245,
+        "data_size_offset": 14478912,
+        "original_compressed_size": 69440,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 69440,
+      "decompressed_size": 69435,
+      "compressed_sha256": "fbcb456c6a78aaee7ba442748fbfb8f42a4ccb0c1d6ddf2f4abf45de2ef45965"
+    },
+    {
+      "name": "/tab-servers.js",
+      "location": {
+        "header_offset": 14478920,
+        "name_offset": 14325685,
+        "data_offset": 14325700,
+        "data_size_offset": 14478944,
+        "original_compressed_size": 5328,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 5328,
+      "decompressed_size": 15429,
+      "compressed_sha256": "05bd9b8a57811984d1cfe35629b7724093589379152b17121e06db510db24d03"
+    },
+    {
+      "name": "/assets/images/bg-settings.webp",
+      "location": {
+        "header_offset": 14478952,
+        "name_offset": 14331028,
+        "data_offset": 14331059,
+        "data_size_offset": 14478976,
+        "original_compressed_size": 111187,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 111187,
+      "decompressed_size": 111182,
+      "compressed_sha256": "aa227f88adb77e30c78cc7146bfdf345df6d4208b8bfed953158119148117513"
+    },
+    {
+      "name": "/assets/fonts/burbank-small-black.otf",
+      "location": {
+        "header_offset": 14478984,
+        "name_offset": 14442246,
+        "data_offset": 14442283,
+        "data_size_offset": 14479008,
+        "original_compressed_size": 35228,
+        "scan_range": {
+          "start": 5994496,
+          "length": 15748166
+        }
+      },
+      "original_compressed_size": 35228,
+      "decompressed_size": 75628,
+      "compressed_sha256": "9c2842aa0c517c653d3792de2f7d922aa12fbb21e017e9c31951f11b4c06ab80"
+    }
+  ]
+}
